@@ -1,0 +1,10 @@
+[package]
+name = "chat-tokio-stream"
+version = "0.1.0"
+edition = "2021"
+author=["Omid Moghadas"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {version= "1.27.0", features=["full"]}
